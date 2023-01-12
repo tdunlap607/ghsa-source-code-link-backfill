@@ -2,7 +2,7 @@
 
 Approximately 42% of advisories are missing their respective source code link (e.g., [GHSA-m6xf-fq7q-8743](https://github.com/advisories/GHSA-m6xf-fq7q-8743)) when in an ideal situation the advisory should contain the source code link (e.g., [GHSA-qr97-v87p-x965](https://github.com/advisories/GHSA-qr97-v87p-x965)). Here we provide a simplistic method for obtaining a portion of the missing source code links for the respective package within an advisory. 
 
-Source code is contained here: [./find_missing_source_code_link.ipynb](https://github.com/tdunlap607/ghsa-source-code-link-backfill/blob/main/find_missing_source_code_link.ipynb)
+Source code is contained here: [./find_missing_source_code_link.ipynb](https://github.com/tdunlap607/ghsa-source-code-link-backfill/blob/main/find_missing_source_code_link.ipynb) (~1 hour to complete)
 
 Final Results: 
 
