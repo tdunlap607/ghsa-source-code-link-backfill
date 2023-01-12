@@ -448,6 +448,7 @@ GHSA-xg59-m7wx-853q,npm,node-red-dashboard,https://github.com/node-red/node-red-
 GHSA-hgch-jjmr-gp7w,npm,safer-eval,https://github.com/commenthol/safer-eval
 GHSA-r3x4-wr4h-pw33,npm,safer-eval,https://github.com/commenthol/safer-eval
 GHSA-m9jw-237r-gvfv,npm,sequelize,https://github.com/sequelize/sequelize
+GHSA-6g33-8w2q-4hxv,npm,robots-txt-guard,https://github.com/Woorank/robots-txt-guard
 GHSA-xj9v-6q2f-vqhx,npm,wifey,https://github.com/gabrielratener/wifey
 GHSA-q43c-g2g7-6gxj,npm,keystone,https://github.com/keystonejs/keystone
 GHSA-7cv6-gvx3-m54m,npm,keystone,https://github.com/keystonejs/keystone
