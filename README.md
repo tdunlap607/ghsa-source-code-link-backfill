@@ -4,13 +4,20 @@ Approximately 42% of advisories are missing their respective source code link (e
 
 Source code is contained here: [./find_missing_source_code_link.ipynb](https://github.com/tdunlap607/ghsa-source-code-link-backfill/blob/main/find_missing_source_code_link.ipynb)
 
-Final results: [./missing_source_code_links.csv]
+Final Results: 
+
+* CSV: [./missing_source_links_20230111.csv](https://github.com/tdunlap607/ghsa-source-code-link-backfill/blob/main/missing_source_links_20230111.csv)
+* JSON: [./missing_source_links_20230111.json](https://github.com/tdunlap607/ghsa-source-code-link-backfill/blob/main/missing_source_links_20230111.json)
+
+Data Info:
+
+
 |              **Column** |                   **Description** |
 |------------------------:|----------------------------------:|
 |                id (str) |                           GHSA ID |
 | package_ecosystem (str) | Ecosystem for associated  GHSA ID |
 |      package_name (str) |    Package for associated GHSA ID |
-|       github_repo (str) |           GItHub Source Code Link |
+|       github_repo (str) |           GitHub Source Code Link |
 
 ## Ecosystem Breakdown of GitHub Reviewed Advisories and Found Missing Source Code Links
 
@@ -19,7 +26,7 @@ To replicate results checkout commit **d1775b46df53105da55cbd8e78ee19e2251e88c1*
 |  **Ecosystem** | **GHSA Count** | **Missing Source Links** | **Found Source Links** |
 |---------------:|---------------:|-------------------------:|-----------------------:|
 |          Maven |          3,080 |           1,364 (44.29%) |            251 (18.4%) |
-|            npm |          2,813 |           1,711 (60.82%) |          1,184 (69.2%) |
+|            npm |          2,813 |           1,711 (60.82%) |         1,186 (69.32%) |
 |           PyPI |          1,494 |             467 (31.26%) |           187 (40.04%) |
 |      Packagist |           1224 |             337 (27.53%) |           329 (97.63%) |
 |             Go |            807 |             238 (29.49%) |           230 (96.64%) |
@@ -29,7 +36,7 @@ To replicate results checkout commit **d1775b46df53105da55cbd8e78ee19e2251e88c1*
 |            Hex |             20 |                 0 (0.0%) |                      - |
 | GitHub Actions |              6 |                 0 (0.0%) |                      - |
 |            Pub |              3 |                 0 (0.0%) |                      - |
-|      **Total** |     **10,783** |       **4,578 (42.46%)** |     **2,598 (56.75%)** |
+|      **Total** |     **10,783** |       **4,578 (42.46%)** |     **2,600 (56.79%)** |
 
 
 ## Process for identifying the missing source code links
